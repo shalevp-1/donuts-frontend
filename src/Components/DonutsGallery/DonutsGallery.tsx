@@ -26,7 +26,7 @@ export default function DonutsGallery() {
                 }
 
                 )}
-                 <img src="https://image.slidesdocs.com/responsive-images/background/donuts-falling-down-on-white-powerpoint-background_fd769f0fce__960_540.jpg" alt="Background image of donuts" className="donutBackground"/>
+                 <img src="https://image.slidesdocs.com/responsive-images/background/donuts-falling-down-on-white-powerpoint-background_fd769f0fce__960_540.jpg" alt="donuts" className="donutBackground"/>
             </div>
             <div className='galleryRightSide'>
                 <div id='innerDetailedViewDiv'>
