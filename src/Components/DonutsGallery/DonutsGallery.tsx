@@ -18,14 +18,14 @@ export default function DonutsGallery() {
         
            
             <div className="theGallery">
-           
+{/*            
                 {donutsArr.map((donut) =>
                     {
                   
                        return <Card theCharacterOfTheCard={donut} bgColor={theColor} setTheClickedCardFunc={setTheClickedCard} />               
                 }
 
-                )}
+                )} */}
                  <img src="https://image.slidesdocs.com/responsive-images/background/donuts-falling-down-on-white-powerpoint-background_fd769f0fce__960_540.jpg" alt="Glazed donut with rainbow sprinkles" className="donutBackground"/>
             </div>
             <div className='galleryRightSide'>
