@@ -1,16 +1,16 @@
-import React, { useEffect, useState } from 'react'
+import React, {  useState } from 'react'
 import { donutsArr } from './DonutsData';
 import './DountsGallery.css'
 import { Donut } from '../../Models/Donuts';
 import Card from '../Card/Card';
-import { log } from 'console';
+//import { log } from 'console';
 import DetailedView from '../DetailedView/DetailedView';
 
 
 export default function DonutsGallery() {
     const [theClickedCard, setTheClickedCard] = useState<Donut>();
-    const [donutsData, setDount] = useState(donutsArr);
-    const [theColor, setTheColor] = useState("white");
+    //const [donutsData, setDount] = useState(donutsArr);
+    const [theColor] = useState("white");
     
 
     return (
