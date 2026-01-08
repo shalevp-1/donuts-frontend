@@ -1,11 +1,11 @@
 import React from 'react';
-import logo from './logo.svg';
+//import logo from './logo.svg';
 import './App.css';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import NavBar from './Components/NavBar/NavBar';
 import { navBarArr } from './Components/NavBar/NavItemsData';
 import DonutsGallery from './Components/DonutsGallery/DonutsGallery';
-import TempComponent from './Components/AboutUs/AboutUs';
+//import TempComponent from './Components/AboutUs/AboutUs';
 import SignUp from './Components/SignUp/SignUp';
 import AboutUs from './Components/AboutUs/AboutUs';
 import Home from './Components/Home/Home';
