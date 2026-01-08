@@ -1,0 +1,161 @@
+/* Donuts Container */
+.donuts {
+    height: 100vh;
+    padding: 20px 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    background-color: #f5f5f7;
+}
+
+/* Single Donut Card */
+.donut {
+    flex: 1 1 calc(33.333% - 40px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.donut:hover {
+    transform: translateY(-5px);
+}
+
+/* Donut Image */
+/* .donut > img {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    margin-bottom: 15px;
+} */
+.donut > img {
+    max-width: 200px;
+    max-height: 300px;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+
+/* Donut Text */
+.donut h2 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #1d1d1f;
+}
+
+.donut p {
+    font-size: 16px;
+    color: #6e6e73;
+    margin-bottom: 10px;
+}
+
+.donut span {
+    font-size: 18px;
+    font-weight: 500;
+    color: #1d1d1f;
+    margin-bottom: 20px;
+}
+
+/* Buttons */
+button {
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.delete {
+    background-color: #ff3b30;
+    color: white;
+}
+
+.update {
+    background-color: #007aff;
+    color: white;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+/* New Donut Button */
+.new {
+    width: 100%;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    background-color: #007aff;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.new:hover {
+    background-color: #0056d2;
+}
+
+/* Form Styling */
+.form {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.form input {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    border: 1px solid #d1d1d6;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+}
+
+.form input:focus {
+    border-color: #007aff;
+    outline: none;
+}
+
+.form button {
+    width: 100%;
+    padding: 12px 0;
+    border: none;
+    border-radius: 8px;
+    background-color: #007aff;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+
+.form button:hover {
+    background-color: #0056d2;
+}
+
+.logout {
+    background-color: #e4868e;
+    color: #721c24;
+  }
+  
+  .logout:hover {
+    background-color: #de1e32;
+  }

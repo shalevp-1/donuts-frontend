@@ -1,0 +1,51 @@
+.SignUp , .Login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90.6vh;
+    background: linear-gradient(to bottom right, #97d1f8, #b5f8d1); 
+}
+
+.form {
+    max-width: 400px;
+    width: 100%;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.input-container {
+    margin-bottom: 20px;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+    margin-bottom: 10px;
+    transition: border-color 0.3s ease;
+}
+
+input:focus {
+    outline: none;
+    border-color: #3498db; 
+}
+
+input[type="button"] {
+    background-color: #2ecc71;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="button"]:hover {
+    background-color: #27ae60; 
+}
+ 
+
+/* https://happywall-img-gallery.imgix.net/52146/delicious_donuts_display.jpg
+*/ 

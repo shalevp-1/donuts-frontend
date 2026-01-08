@@ -1,0 +1,39 @@
+.aboutUsContainer {
+    padding: 20px;
+    background-color: #bad7d8;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  .aboutUsContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .aboutUsText {
+    max-width: 600px;
+    text-align: center;
+  }
+  
+  .aboutUsImage img {
+    width: 100%;
+    border-radius: 8px;
+    margin-top: 20px;
+  }
+  
+  .contactInfo {
+    margin-top: 30px;
+    text-align: center;
+  }
+  
+  .contactInfo h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .contactInfo p {
+    margin: 5px 0;
+  }
+  

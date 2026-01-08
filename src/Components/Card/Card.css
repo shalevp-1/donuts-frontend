@@ -1,0 +1,106 @@
+.CharacterCard {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 80px;
+    
+    
+}
+.mainCardInfo {
+    background-color: #eeffff;
+    border: 6px black solid;
+    border-radius: 15%;
+    padding-bottom: 20px;
+}
+.mainCardInfo>img {
+    width: 400px;
+    height: 400px;
+    
+}
+#img1 {
+    width: 300px;
+    height: 300px;
+}
+
+
+.CharacterCard .infoCard.hdn {
+    display: none;
+    
+}
+
+.CharacterCard:hover {
+    z-index: 2;
+    transform: scale(1.25); 
+}
+
+
+.infoCard h2
+{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    border-radius: 15%;
+    margin-top: 4px;
+
+    /* background-color: rgb(121, 172, 173); */
+
+
+}
+
+
+img{
+    border-radius: 25%;
+}
+/* .mainCardInfo .infoCard {
+    background-color: rgb(206, 184, 147); 
+} */
+
+.CharacterCard .infoCard {
+    border: solid black 2px;
+    background-color: #eeffff;
+    border-radius: 10%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    
+}
+.price {
+    background-color: white;
+    border-radius: 50%; 
+    margin-bottom: 40px;
+
+}
+
+#text1 {
+    border-radius: 25%;
+    
+}
+@media (max-width: 768px) {
+    .mainCardInfo{
+        padding-bottom: 50px;
+    }
+    .mainCardInfo>img,
+    #img1{
+        max-height: 90%;
+        max-width: 100%; 
+    }
+  
+   
+}
+.infoCard h4 {
+    max-height: 800px;
+    overflow-y: auto;
+}
+.ingredients {
+    background-image: url("https://img.freepik.com/free-photo/sprinkles-off-white-wallpaper_53876-94460.jpg?size=626&ext=jpg&ga=GA1.1.1546980028.1703030400&semt=ais");
+    /* color: rgb(255, 255, 255); */
+    position: relative;
+    top: -20px;
+    border-radius: 8%;
+    border-bottom-left-radius: 40%;
+    border-bottom-right-radius: 40%;
+    width: 90%;
+    margin: 0 auto;
+}
